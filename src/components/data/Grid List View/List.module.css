@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300;400&family=Lobster&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@100;200;300&family=Rubik:ital@1&family=Urbanist:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+.table{
+    width: 100%;
+    border-collapse: collapse;
+   
+    
+}
+
+.table table{
+    border-spacing: none;
+}
+.table thead{
+    background-color: rgb(50, 50, 123);
+    
+    
+}
+.table th{
+    font-weight:400;
+    text-align: left;
+    width: 15rem;
+    padding: 1rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    font-feature-settings: 'clig' off, 'liga' off;
+       
+}
+
+.data tr{
+    border-bottom: 1px solid white;
+    
+}
+.data td{
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+    color: rgb(230, 227, 227);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+    
+}
+.dropdown{
+   text-align: center;
+   
+   
+}
+.data .dropdown_pos{
+    /* float: right; */
+    /* right: 0px; */
+    /* border: 1px solid red; */
+}
+
+
