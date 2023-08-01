@@ -30,7 +30,7 @@
     transition: 0.3s;
 }
 .list:hover{
-    background-color:#97a5c1;
+    background-color:#F1F1F5;
     cursor: pointer;
 }
 .list span{
