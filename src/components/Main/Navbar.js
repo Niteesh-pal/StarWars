@@ -15,6 +15,13 @@ import Dashboard from '../pages/Dashboard';
 
 
 const Navbar = () => {
+  const [active , setActive] = useState(false);
+  const [value, setValue] = useState(null);
+
+  const handleClick=(index)=>{
+    setActive(true);
+    setValue(index);
+  }
  
 
   return (
@@ -25,10 +32,10 @@ const Navbar = () => {
         {
           navbarData.map((item, index) => {
             return(
-              <li className='item' key={index}>
+              <li className="item" key={index} >
                 <NavLink to={item.path} className='nav-link' style={{textDecoration:"none"}}>
-                  <div className='item-content'>
-                    <span className='icons'>{item.icon}</span>
+                  <div className={value ===index && active?"item-content active":"item-content"} onClick={()=>handleClick(index)}>
+                    <span className='icons' >{item.icon}</span>
                     <span className='title'>{item.title}</span>
                     <span className='arrow'><AiOutlineRight/></span>
                   </div>

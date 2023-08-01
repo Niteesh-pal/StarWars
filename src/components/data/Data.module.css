@@ -20,10 +20,10 @@
     display: inline-flex;
     position: relative;
     width: 8rem;
-    height: 3rem;
+    height: 2rem;
     background-color: #03123D;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 2px;
     margin-top: 10px;
     border:2px solid white ;
@@ -41,6 +41,7 @@
     box-sizing: border-box;
  /* border: 1px solid black; */
  background-color: white;
+
     width: 55%;
     top:0px;
     left: 0px;

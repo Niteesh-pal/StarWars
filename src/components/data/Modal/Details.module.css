@@ -8,8 +8,6 @@
     background-color:#03123D;
 }
 .container{
-    
-    border: 1px solid black;
     padding: 10px;
     max-height: 97%;
     overflow: auto;
@@ -59,12 +57,13 @@
     font-family:'Poppins';
 }
 .para{
-    color: aliceblue;
+    color: rgba(37, 44, 50, 1);
     font-size: 14px;
+    font-weight: 590;
     font-family: 'Poppins';
     max-width: 25rem;
     overflow: hidden;
     padding: 10px;
-    background-color: rgb(53, 77, 77);
+    background-color: rgba(241, 241, 245, 1);
     border-radius: 10px;
 }

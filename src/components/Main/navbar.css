@@ -14,11 +14,11 @@
     
     list-style: none;
     text-decoration: none;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     justify-content: center;
     align-items: center;
     padding: 0px;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     height:3rem;
     margin: 10px;
     border-radius: 5px;
@@ -29,7 +29,12 @@
     display: flex;
     padding: 10px;
     position: relative;
+    /* border: 1px solid black; */
    
+}
+.active{
+    background-color: rgb(255, 0, 255);
+    border-radius: 5px;
 }
 .icons{
     font-size: 1.4rem;
