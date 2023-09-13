@@ -51,7 +51,7 @@ const Grid = ({ data,name }) => {
 
                     <div className={styles.card} key={index}>
                         <div className={styles.image} onClick={()=>handleImageclick(item)}>
-                    <img src="https://picsum.photos/200/300?random=1" alt=""/>
+                     <img src={`https://picsum.photos/200/300?random=${index}`} alt=''/>
                     </div>
                         <div className={styles.content}>
                             <div>
