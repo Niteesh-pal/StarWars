@@ -50,7 +50,9 @@ const Grid = ({ data,name }) => {
                 data.map((item, index) => (
 
                     <div className={styles.card} key={index}>
-                        <div className={styles.image} onClick={()=>handleImageclick(item)}></div>
+                        <div className={styles.image} onClick={()=>handleImageclick(item)}>
+                    <img src="https://picsum.photos/200/300?random=1" alt=""/>
+                    </div>
                         <div className={styles.content}>
                             <div>
                                 <span className={styles.icon}>
